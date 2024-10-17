@@ -1,0 +1,24 @@
+{
+    "description": "Ubuntu 2404",
+    "short_description": "Ubuntu linux 2404",
+    "name": "ubuntu-24.04",
+    "versions": [
+        {
+            "version": "2",
+            "status": "active",
+            "release_date": "17-10-2024",
+            "description_html": "<ul>\n<li>Releasing 1 with docker-ce</li>\n</ul>\n",
+            "description_markdown": "* Releasing 1 with docker-ce",
+            "providers": [
+                {
+                    "name": "virtualbox",
+                    "url": "http://176.109.106.123/ubuntu2404-docker.box",
+                    "checksum": "9b54e019ea5a0b563e40e3db2103c044f8b4e8790318c9c372b9ca2e272ed362",
+                    "checksum_type": "sha256",
+                    "size": 2016029227,
+                    "kernel": "6.8.0-31-generic.x86_64"
+                }
+            ]
+        }
+    ]
+}
